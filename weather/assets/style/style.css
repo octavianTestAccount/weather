@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+body {
+  font-family: "PT Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(../img/AbandonedMajesticHornet.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #a4ccd3;
+}
+
+.weather {
+  width: 50%;
+  margin: 0 25%;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation h1 {
+  font-size: 37px;
+  letter-spacing: 2px;
+  margin: 0;
+  text-align: center;
+}
+.navigation input {
+  width: 330px;
+  height: 30px;
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+  border: rgb(37, 36, 36) solid 2px;
+  border-radius: 7px;
+  background-color: transparent;
+  -webkit-transition: ease-in-out 3s;
+  transition: ease-in-out 3s;
+}
+.navigation input:hover {
+  -webkit-box-shadow: rgb(233, 227, 220) 10px 7px 50px 20px;
+          box-shadow: rgb(233, 227, 220) 10px 7px 50px 20px;
+}
+
+#navigation-search {
+  width: 30px;
+  color: black;
+  display: block;
+  z-index: 999;
+  position: relative;
+  top: 30px;
+}
+
+.data__img {
+  margin: 50px 0;
+  max-height: 150px;
+  max-width: 200px;
+  width: 200px;
+  height: 150px;
+}
+.data__img img {
+  width: 100%;
+  height: auto;
+}
+.data__temp {
+  font-size: 77px;
+  letter-spacing: 2px;
+  margin: 70px 50px;
+}
+.data__description {
+  text-align: center;
+  line-height: 14px;
+  font-size: 27px;
+  font-style: italic;
+}
+
+.sun {
+  display: none;
+}
